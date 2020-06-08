@@ -1,6 +1,9 @@
 body {
   font-family: "Arial", sans-serif;
 }
+body h1 {
+  font-weight: 900;
+}
 
 /* HEADER */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -153,9 +156,8 @@ body {
   margin-bottom: 30px;
 }
 .development .sub {
-  top: -300px;
+  top: -350px;
   position: relative;
-  padding: 0 0 120px;
 }
 .development .sub .page {
   text-align: left;
@@ -166,6 +168,7 @@ body {
   background-size: 100% 100%;
 }
 .development .sub .page h1 {
+  font-weight: 700;
   padding-bottom: 40px;
 }
 .development .sub .page button {
@@ -195,9 +198,52 @@ body {
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* SEARCH */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.search {
+  padding-bottom: 100px;
+}
+.search .row {
+  background-image: url(img/search-bg.png);
+  background-repeat: no-repeat;
+  background-position: 5% 20%;
+}
+.search p {
+  padding-top: 25px;
+  font-size: 24px;
+}
+.search img {
+  margin-bottom: 25px;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* PORTFOLIO */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.portfolio .row {
+  text-align: center;
+  color: #fff;
+  background-color: #303263;
+}
+.portfolio .top {
+  height: 110px;
+  background-image: url(img/portfolio-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60%;
+}
+.portfolio .bottom {
+  height: 100px;
+}
+.portfolio .bottom button {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #6a6b8e;
+  border-radius: 10px;
+}
+.portfolio .bottom button h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* ADAPTABILITY */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
