@@ -221,7 +221,6 @@ body { font-family: 'Arial', sans-serif; h1 { font-weight: 900; }}
 	}
 	padding-bottom: 100px;
 }
-
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
@@ -254,26 +253,77 @@ body { font-family: 'Arial', sans-serif; h1 { font-weight: 900; }}
 		}
 	}
 }
-
-
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 
 /* ADAPTABILITY */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-
+.adaptability {
+	.row {
+		background-image: url(img/adaptability-bg-2.png);
+		background-repeat: no-repeat;
+	}
+	p {
+		padding-top: 25px;
+		font-size: 24px;
+	}
+	img {
+		margin-bottom: 25px;
+	}
+	padding: 170px 0;
+}
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 
 /* TRADE-IN */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-
+.trade-in {
+	color: #fff;
+	text-align: left;
+	background-image: url(img/trade-in-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	h1 {
+		font-size: 48px;
+	}
+	h2 {
+		font-size: 24px;
+		font-weight: 900;
+	}
+	p {
+		font-size: 18px;
+		margin: 0;
+		padding-top: 20px;
+		padding-right: 25px;
+	}
+	.main { 
+		text-align: center;
+		padding-top: 75px;
+		h1 {
+			padding: 0 50px;
+			margin-bottom: 30px;
+		}
+	}
+	.sub {
+		img {
+			padding-right: 5px;
+		}
+	}
+	.bottom {
+		text-align: center;
+		height: 100px;
+		button {
+			border: none;
+			padding: 10px 20px;
+			h1 { font-size: 24px; margin: 0; }
+			color: #fff;
+			background-color: #f6ae48;
+			border-radius: 10px;
+		}
+	}
+}
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
@@ -326,6 +376,12 @@ body { font-family: 'Arial', sans-serif; h1 { font-weight: 900; }}
 			.page {
 				margin-bottom: 40px;
 			}
+		}
+	}
+	.trade-in {
+		background-size: auto 100%;
+	 	.main { 
+			padding-top: 175px;
 		}
 	}
 

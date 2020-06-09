@@ -247,9 +247,71 @@ body h1 {
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* ADAPTABILITY */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.adaptability {
+  padding: 170px 0;
+}
+.adaptability .row {
+  background-image: url(img/adaptability-bg-2.png);
+  background-repeat: no-repeat;
+}
+.adaptability p {
+  padding-top: 25px;
+  font-size: 24px;
+}
+.adaptability img {
+  margin-bottom: 25px;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* TRADE-IN */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.trade-in {
+  color: #fff;
+  text-align: left;
+  background-image: url(img/trade-in-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.trade-in h1 {
+  font-size: 48px;
+}
+.trade-in h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+.trade-in p {
+  font-size: 18px;
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 25px;
+}
+.trade-in .main {
+  text-align: center;
+  padding-top: 75px;
+}
+.trade-in .main h1 {
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+.trade-in .sub img {
+  padding-right: 5px;
+}
+.trade-in .bottom {
+  text-align: center;
+  height: 100px;
+}
+.trade-in .bottom button {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #f6ae48;
+  border-radius: 10px;
+}
+.trade-in .bottom button h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* CARE */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -288,6 +350,13 @@ body h1 {
   }
   .development .sub .page {
     margin-bottom: 40px;
+  }
+
+  .trade-in {
+    background-size: auto 100%;
+  }
+  .trade-in .main {
+    padding-top: 175px;
   }
 }
 @media (max-width: 770px) {
