@@ -315,9 +315,90 @@ body h1 {
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* CARE */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.care {
+  padding: 170px 0;
+}
+.care .row {
+  background-image: url(img/care-bg-2.png);
+  background-repeat: no-repeat;
+}
+.care p {
+  padding-top: 25px;
+  font-size: 24px;
+}
+.care img {
+  margin-bottom: 25px;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* FOOTER */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.footer {
+  color: #fff;
+  text-align: left;
+  background-image: url(img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer .main {
+  padding: 120px 0 300px;
+}
+.footer .main h1 {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.footer .main p {
+  font-size: 18px;
+  padding-right: 125px;
+}
+.footer .main input[type=text] {
+  color: #fff;
+  width: 310px;
+  height: 45px;
+  padding: 10px 15px;
+  border: 4px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+.footer .main input::-ms-input-placeholder {
+  color: #fff;
+}
+.footer .main input::placeholder {
+  color: #fff;
+}
+.footer .main input[type=text]:focus {
+  outline: none;
+}
+.footer .main input[id=e-mail] {
+  width: 614px;
+}
+.footer .main input[id=name] {
+  width: 305px;
+}
+.footer .main textarea {
+  color: #fff;
+  resize: none;
+  padding: 10px 15px;
+  border: 4px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+  width: 614px;
+  height: 165px;
+}
+.footer .main textarea:focus {
+  outline: none;
+}
+.footer .main button {
+  background-color: #f6ae48;
+  font-weight: 900;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.footer .main button:hover {
+  background-color: #d3943c;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* MEDIA */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -366,6 +447,13 @@ body h1 {
 
   .development {
     margin-top: 500px;
+  }
+
+  .footer .main p {
+    padding: 0;
+  }
+  .footer .main textarea {
+    height: 65px;
   }
 }
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
